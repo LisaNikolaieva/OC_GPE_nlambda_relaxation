@@ -1,7 +1,7 @@
 precalculated = 0;
 if precalculated
     Config;
-    load('lambda_store_cost_function_store2.mat','lambda_store','cost_function_store');
+    load('lambda_store_cost_function_store.mat','lambda_store','cost_function_store');
 end
 
 %%

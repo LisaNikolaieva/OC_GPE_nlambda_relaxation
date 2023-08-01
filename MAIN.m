@@ -9,7 +9,7 @@ X0 = lambda0;
 
 n_steps = 3;
 
-[lambda_store, cost_function_store] = find_min_BFGS2(f_fun,gradf_fun,X0,X2x,x2X,n_steps);
+[lambda_store, cost_function_store] = find_min_BFGS(f_fun,gradf_fun,X0,X2x,x2X,n_steps);
 
 %%
 Postprocessing;
